@@ -1,0 +1,6 @@
+{
+  "name": "Graphillian",
+  "hostname": "graphillian.dev",
+  "secret": "...",
+  "http_port": 8020
+}

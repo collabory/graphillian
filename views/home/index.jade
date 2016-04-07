@@ -1,0 +1,37 @@
+html(lang='en')
+  head
+    title
+      | Graphillian
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='/css/app.css')
+    script(type='text/javascript', src='/js/app.js')
+  body
+    .container-fluid
+      .row
+        .col-md-12
+          h1
+            | Graphillian
+
+      .row
+        .col-md-1
+          form(action='/', method='POST')
+            .form-group
+              label(for='g-gridlines')
+                | Gridline Spacing
+              input(type='text', id='g-spacing', name='spacing', class='form-control numeric', value=paper.spacing)
+            .form-group
+              label(for='g-color-c')
+                | Color
+              .color-label
+                | C
+                input(type='text', id='g-color-c', name='color[0]', class='form-control color-component', value=paper.color[0])
+              .color-label
+                | M
+                input(type='text', id='g-color-m', name='color[1]', class='form-control color-component', value=paper.color[1])
+              .color-label
+                | Y
+                input(type='text', id='g-color-y', name='color[2]', class='form-control color-component', value=paper.color[2])
+              .color-label
+                | K
+                input(type='text', id='g-color-k', name='color[3]', class='form-control color-component', value=paper.color[3])
+            input(type='submit', class='btn btn-primary', value='Generate')

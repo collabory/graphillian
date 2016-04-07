@@ -1,0 +1,28 @@
+{
+  "name": "graphillian",
+  "version": "0.1.0",
+  "homepage": "https://github.com/tadman/graphillian",
+  "authors": [
+    "Scott Tadman <tadman@collabory.ca>"
+  ],
+  "description": "Graph Paper Generator",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.4",
+    "dropzone": "~4.0.1",
+    "animate.css": "~3.2.6",
+    "bootstrap-select": "~1.6.5",
+    "selectize": "~0.12.1",
+    "microplugin": "~0.0.3",
+    "sifter": "~0.4.1",
+    "lodash": "~3.10.0"
+  }
+}

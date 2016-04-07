@@ -1,0 +1,1 @@
+window.PDFDocument = require('pdfkit');
